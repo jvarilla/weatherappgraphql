@@ -5,9 +5,11 @@ import Header from "../components/header"
 
 export default () => (
   <div /*style={{ color: `purple` }} */>
-    <Link to="/contact/">Contact</Link> 
-    <Header headerText="Hello Gatsby!" />
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-  </div>
+    <Header headerText="Hello Weather!" />
+    <ul>
+    <li><Link to="/">Home</Link></li> 
+    <li><Link to="/darkabout/">DarkSky Home</Link> </li>
+    <li><Link to="/openabout/">OpenWeather Home</Link> </li>
+      </ul>
+    </div>
 )

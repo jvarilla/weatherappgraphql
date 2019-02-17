@@ -1,12 +1,13 @@
 html {
-  background-color: lavenderblush;
+  background-color: #80deea; /*lavenderblush;*/
+  font-family: consolas;
 }
 div { 
       margin: 6px 6px 6px 6px;
       max-width: 700px;
       padding: 4px;
       padding-top: 4px;
-      border: 2px solid red;
+      /*border: 2px solid red;*/
 
   }
 h3 {
@@ -15,3 +16,8 @@ h3 {
           font-style: normal;
 
       }
+
+a {
+  text-decoration: none;
+  color: white;
+}

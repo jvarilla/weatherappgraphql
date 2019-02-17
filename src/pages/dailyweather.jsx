@@ -51,7 +51,7 @@ class DailyWeather extends React.Component {
 			render ={(data) => (
 				<WeatherNavigation>
 					<div>
-						<h1>10 Day Forecast</h1>
+						<h1>8 Day Forecast</h1>
 						<CardContainer>
 							{
 								data.weatherData.daily.data.map(function(name, index) {

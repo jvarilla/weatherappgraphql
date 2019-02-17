@@ -8,7 +8,7 @@ export default (props) => {
 				Home
 			</div></Link>
 			<Link to="/dailyweather/"><div className={WeatherNavigationStyles.tab}>
-				10 Day
+				8 Day
 			</div></Link>
 			<Link to="/hourlyweather/"><div className={WeatherNavigationStyles.tab}>
 				Hourly

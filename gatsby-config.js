@@ -15,7 +15,7 @@ module.exports = {
       //Enables "Add to Homescreen" prompt and disables broser UI (including)
       //see https://developers.google.lcom/web/fundamentals/web-app-manifest/#
       display: "standalone",
-      icon: "./src/assets/icon2.png"
+      icon: "./src/assets/icon3.png"
     },
   }, 
   'gatsby-plugin-offline',

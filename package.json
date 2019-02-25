@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop --host=0.0.0.0 --port=3000",
-    "start": "npm run develop",
+    "start": "npm run serve", //"npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""

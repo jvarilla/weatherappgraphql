@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop --host=0.0.0.0 --port=3000",
-    "start": "npm run serve",
+    "start": "http-server public",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
@@ -17,6 +17,7 @@
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-source-darksky": "^1.2.0",
     "gatsby-source-openweathermap": "^1.0.4",
+    "http-server": "^0.11.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
   },
